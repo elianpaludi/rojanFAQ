@@ -27,6 +27,12 @@ header .bg{
     margin-bottom: 30px;
 }
 
+.faq h2{
+    font-size:24px;
+    width: 70%;
+    padding-bottom: 55px;
+}
+
 .collapsible{
     width: 80%;
     margin: 0 auto;
