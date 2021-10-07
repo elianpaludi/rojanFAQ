@@ -1,0 +1,135 @@
+header{
+    width: 100%;
+    height: 350px;
+}
+
+header .bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpaperaccess.com/full/6329159.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.faq{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.collapsible{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.a{
+    width: 350px;
+    height: 550px;
+    border: 1px solid black;
+}
+
+footer{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 150px;
+    box-shadow: 1px -5px 15px rgba(0, 0, 0, 0.192);
+
+}
+
+.carousel-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-contain h2{
+    font-size: 40px;
+}
+
+.carousel-contain p{
+    text-align: center;
+    padding-top: 10px;
+}
+.carousel{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+}
+
+
+.carousel .indicators .indicator-item {
+
+    background-color: black;
+    border-radius: 0;
+    -webkit-transform: rotate(
+        45deg);
+            transform: rotate(
+        45deg);
+        position: relative;
+        top: 20px;
+}
+
+.carousel .indicators .indicator-item.active{
+    background-color: rgb(113, 145, 235);
+
+}
+
+.carousel-item{
+    width: 300px !important;
+    height: 350px !important; 
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-end-end-radius: 50px;
+    border-start-start-radius: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+}
+.botoncito-twitch{
+    width: 50px;
+    height: 55px;
+    border: none;
+    background-image:url(https://pngimg.com/uploads/twitch/twitch_PNG19.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color:transparent;
+}
+
+.botoncito-instagram{
+    width: 50px;
+    height: 55px;
+    border: none;
+    background-image:url(http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color:transparent;
+}
+.botoncito-youtube{
+    width: 50px;
+    height: 55px;
+    border: none;
+    background-image:url(https://icones.pro/wp-content/uploads/2021/02/youtube-logo-icone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color:transparent;
+}
+
+.botoncito-instagram,
+.botoncito-twitch,
+.botoncito-youtube:focus{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
