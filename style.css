@@ -92,6 +92,7 @@ footer{
     border-end-end-radius: 50px;
     border-start-start-radius: 50px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+    background-color: white;
 }
 .botoncito-twitch{
     width: 50px;
